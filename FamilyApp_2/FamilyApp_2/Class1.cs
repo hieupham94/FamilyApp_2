@@ -13,15 +13,16 @@ namespace FamilyApp_2
         {
             StackLayout stackLayout = new StackLayout()
             {
-                Spacing = 10.0,
-                BackgroundColor = Color.White,
+                Spacing = 3.0,
+                BackgroundColor = Color.Gray,
                 Children =
                 {
                     new Label
                     {
                         HorizontalTextAlignment = TextAlignment.Center,
                         TextColor = Color.Red,
-                        VerticalOptions = LayoutOptions.Fill,
+                        BackgroundColor = Color.White,
+                        VerticalOptions = LayoutOptions.StartAndExpand,
                         FormattedText = new FormattedString
                         {
                             Spans =
@@ -127,11 +128,51 @@ namespace FamilyApp_2
                                 },
                                 new Span
                                 {
-                                    Text = ", This is the last paragraph."
+                                    Text = ", This is the last paragraph. I can't see the different of layoutoptions."
                                 }
                             }
                         }
-                    }
+                    },
+                    new Label { Text = "1" },
+                    new Label { Text = "2" },
+                    new Label { Text = "3" },
+                    new Label { Text = "4" },
+                    new Label { Text = "5" },
+                    new Label { Text = "6" },
+                    new Label { Text = "7" },
+                    new Label { Text = "8" },
+                    new Label { Text = "9" },
+                    new Label { Text = "10" },
+                    new Label { Text = "1" },
+                    new Label { Text = "2" },
+                    new Label { Text = "3" },
+                    new Label { Text = "4" },
+                    new Label { Text = "5" },
+                    new Label { Text = "6" },
+                    new Label { Text = "7" },
+                    new Label { Text = "8" },
+                    new Label { Text = "9" },
+                    new Label { Text = "10" },
+                    new Label { Text = "1" },
+                    new Label { Text = "2" },
+                    new Label { Text = "3" },
+                    new Label { Text = "4" },
+                    new Label { Text = "5" },
+                    new Label { Text = "6" },
+                    new Label { Text = "7" },
+                    new Label { Text = "8" },
+                    new Label { Text = "9" },
+                    new Label { Text = "10" },
+                    new Label { Text = "1" },
+                    new Label { Text = "2" },
+                    new Label { Text = "3" },
+                    new Label { Text = "4" },
+                    new Label { Text = "5" },
+                    new Label { Text = "6" },
+                    new Label { Text = "7" },
+                    new Label { Text = "8" },
+                    new Label { Text = "9" },
+                    new Label { Text = "10" }
                 }
             };
 
